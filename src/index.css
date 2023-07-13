@@ -1,0 +1,34 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  --gradient:  linear-gradient(90deg, rgba(100,119,21,1) 0%, rgba(229,236,214,1) 100%);
+}
+
+body {
+ 
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.active {
+  color: black
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
