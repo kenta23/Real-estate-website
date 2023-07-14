@@ -36,8 +36,7 @@ const Listings = () => {
       </div>
     </div>
      <div className="flex flex-row justify-between">
-            <button className="text-black" onClick={previousClick}>Previous</button>
-            <button className="text-black" onClick={() => setCurrentIndex((prevIndex) => (prevIndex === slideData.length - 1 ? 0 : prevIndex + 1))}>Next</button>
+          
            </div>
     </div>
   )
